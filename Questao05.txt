@@ -1,0 +1,17 @@
+
+Após ter complicado o código e analisado cada operação, foi verificado que todas funcionaram como o esperado. 
+Seguindo a sequência mostrada no cálculo, é mostrado na tela os seguintes valores:
+ 
+Operação (a) -> 20
+Operação (b) -> 29.0
+Operação (c) -> p
+Operação (d) -> e
+Operação (e) -> p
+Operação (f) -> e
+Operação (g) -> t
+Operação (h) -> 31
+Operação (i) -> 45
+Operação (j) -> 27
+Operação (l) -> 31
+Operação (m) -> 45
+Operação (n) -> 27
