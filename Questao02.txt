@@ -1,0 +1,4 @@
+p == &i; a comparação é verdadeira, ambos possuem o mesmo valor.
+*p - *q; será exibido na tela o valor -2.
+**&p; será exibido na tela o valor 3.
+3 - *p/(*q) + 7; será exibido na tela o valor 10.
