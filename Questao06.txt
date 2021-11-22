@@ -1,0 +1,13 @@
+Ao compilar o código o resultado da primeira iteração do for foi:
+ 
+i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = 0x7ffeb21654e0(f + 0) = 0x7ffeb21654e0
+ 
+Percebe-se que o segundo e o terceiro printf fazem a mesma coisa, porém de maneiras diferentes e, 
+da mesma forma, o quarto e o quinto printf também fazem coisas iguais entre si, mas de formas distintas. 
+Quando foi compilado o código foi percebido que forma gerados dois “warnings” no que se referia às expressões:
+ 
+printf("&vet[%d] = %x",i, &vet[i]);
+printf("(f + %d) = %x",i, f+i);
+ 
+Esse aviso tinha a mensagem de que o formato especificava um unsigned int, mas no argumento havia um *float. 
+Entretanto, ao usar o %p, que também serve para impressão de hexadecimais, esses avisos desapareceram.
