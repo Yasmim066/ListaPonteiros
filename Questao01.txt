@@ -1,0 +1,8 @@
+Segundo o que foi visto nas webs aulas, os ponteiros são variáveis especiais 
+que servem para armazenar o endereço de memória que determinada variável ocupa. 
+Eles possuem um tamanho específico, a depender da arquitetura do sistema operacional 
+e podem ser declarados da seguinte forma:
+int *ponteiro;
+De modo geral, os ponteiros possuem diversas aplicações em arrays, na 
+passagem de parâmetros e quando se deseja realizar mudanças no valor da variável 
+alterando-o diretamente na memória em que a variável está alocada.
