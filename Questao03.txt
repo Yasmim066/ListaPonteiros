@@ -1,0 +1,1 @@
+Será impresso na tela, respectivamente, os valores: 4094, 7, 5, 15 e 9.
