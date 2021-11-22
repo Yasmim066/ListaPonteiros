@@ -1,0 +1,5 @@
+A alternativa b ocorre uma atribuição ilegal por gerar uma incompatibilidade de tipos, 
+porque está sendo tentado armazenar no valor do ponteiro a posição de memória que a variável 
+j está alocada. Na alternativa d ocorre um erro de sintaxe, uma vez que o *& não deve estar 
+entre parênteses. Na alternativa f além de acontecer o mesmo que na b, não tenho conhecimento do 
+uso de dois &&. Mais uma vez acontece erro de incompatibilidade de tipos na alternativa g.
