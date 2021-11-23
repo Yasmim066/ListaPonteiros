@@ -1,0 +1,20 @@
+float aloha[10], coisas[10][5], *pf, value = 2.2;
+int i=3;
+
+	aloha [2] = value; // válido
+	
+	scanf ("% f", & aloha); // válido
+	
+	aloha = "value"; // inválido, pois aloha é um vetor, logo precisa receber a posição que o conteúdo será
+        colocado.
+	
+	printf ("% f", aloha); // válido
+	
+	coisas [4] [4] = aloha [3]; // válido
+	
+	coisas [5] = aloha; // inválido, pois coisas é uma matriz e precisa-se identificar as linhas e as colunas 
+	para atribuir um determinado valor. 
+	
+	pf = value; // inválido, pois há incompatibilidade de tipos.
+	
+	pf = aloha; // válido.
