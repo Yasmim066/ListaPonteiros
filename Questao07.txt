@@ -1,0 +1,6 @@
+*(pulo + 2) -> a expressão referencia, de fato, o valor do terceiro elemento do vetor.
+*(pulo + 4) -> de maneira semelhante do caso acima, aqui será referenciado o valor do quinto elemento do vetor.
+pulo + 4 -> aqui, como não há uso do asterisco, está sendo referenciado a posição da memória, em hexadecimal, 
+que o quinto elemento do vetor ocupa.
+pulo + 2 -> como no exemplo acima, neste caso é referenciado a posição da memória, em hexadecimal, 
+que o terceiro elemento do vetor ocupa.
