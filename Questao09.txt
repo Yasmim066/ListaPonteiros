@@ -1,0 +1,3 @@
+a) O programa imprime o conteúdo do vetor “vet” acrescido da variável “i”. Dessa forma, o programa
+ imprime a sequência: 4,10,15.
+b) O programa imprime, respectivamente, os endereços dos números 4,9 e 13 no vetor “vet”.
