@@ -1,0 +1,15 @@
+Os ponteiros para funções guardam a informação de onde os códigos das funções ficam na memória virtual. 
+Através desse recurso é possível, por exemplo, passar uma função como argumento para outra função. Além disso, 
+o ponteiro facilita chamar uma função que sempre aparece no código.
+Ex:
+ 
+#include <stdio.h>
+int multiplicaPor2(int n){
+ return n*2;
+}
+int main(void) {
+ int n=3;
+ int (*pf) (int)= &multiplicaPor2;
+ printf("Resultado = %d", pf(n));
+ return 0;
+}
