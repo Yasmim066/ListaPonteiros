@@ -1,0 +1,6 @@
+p = mat + 1; -> a expressão é válida, nela a posição de memória que o vetor mat ocupa é acrescida de um byte.
+p = mat; -> esta expressão também é válida, pois eu atribuo a variável p o valor, em hexadecimal, que o 
+vetor mat ocupa na memória.
+p = ++mat; -> a expressão não é válida porque não é impossível incrementar um valor em hexadecimal tal como foi 
+escrito.
+x = (*mat); -> expressão válida, consegue imprimir o endereço da vetor mat.
